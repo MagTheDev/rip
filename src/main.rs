@@ -7,9 +7,6 @@ const URL: &str = "https://api.ipify.org?format=json";
 
 #[tokio::main]
 async fn main() {
-    // let resp = reqwest::get(URL).await.unwrap();
-    // let body = resp.text().await.unwrap();
-    // let data = serde_json::from_str::<serde_json::Value>(&body).unwrap();
 
     print_colored(Color::Blue, "\n\n  ::  ");
     print_colored(Color::Green, "Fetching your IP address... \n");
