@@ -38,6 +38,7 @@ async fn main() {
     print_colored(Color::White, "");
     print!("      Your IP address is: ");
     print_colored(Color::Magenta, &data["ip"].as_str().unwrap());
+    print_colored(Color::White, "");
     print!("\n\n\n")
 
 
